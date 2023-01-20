@@ -1,0 +1,163 @@
+body {
+ margin: 0;
+ text-align: center;   
+}
+
+#hero{
+    background-image: url(images/Bonn-main.jpg);
+    background-size: cover;
+    height: 300px;
+    color: #FAF7EF;
+    text-shadow: 0 0 12px #363125;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#title {
+    padding-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    text-shadow: 0 0 12px #363125;
+    margin: 0;
+}
+#intro {
+    font-family:'Allura', cursive;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    }
+    
+#all {
+    background: linear-gradient(#E4E2DC 10%, #E7DCC6 90%);
+    margin: 0;
+    padding: 40px 0 80px 0;
+    }
+    
+    
+#add {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    text-shadow: 0 0 5px #E7DCC6;
+}
+
+#kirsche {
+    background: linear-gradient(
+          rgba(50, 20, 0, 0.5), 
+          rgba(0, 0, 0, 0)), url(images/Kirsche.jpg);
+    background-size: 500%;
+    
+    transition: all 0.5s ease-in-out;
+}   
+
+#kirsche:hover {
+    background: url(images/Kirsche.jpg);
+    background-size: 150%;
+}
+
+#rhein {
+     background: linear-gradient(
+          rgba(40, 25, 0, 0.5), 
+          rgba(0, 0, 0, 0)), url(images/Rheinaue.jpg);
+    background-size: 500%;
+    
+    transition: all 0.5s ease-in-out;
+}
+
+#rhein:hover {
+    background: url(images/Rheinaue.jpg);
+    background-size: 150%;
+}
+
+#uni {
+    background: linear-gradient(
+          rgba(80, 50, 0, 0.5), 
+          rgba(0, 0, 0, 0)), url(images/Uni.jpg);
+    
+    background-size: 500%;
+    transition: all 0.5s ease-in-out;
+}
+
+#uni:hover {
+    background:  url(images/Uni.jpg);
+    background-size: 150%;
+    
+}
+
+ #activities {
+     display: flex;
+     justify-content: space-around;
+     margin: 50px 0 0 0;
+    
+     
+     
+ }   
+
+.examples {
+    width: 150px;
+}
+ 
+ .ex-img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50% 
+
+ }   
+ 
+ .ex-titles {
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 23px;
+     margin: 20px 0 0 0;
+ }
+ 
+ .ex-des {
+     font-family: 'Work Sans', sans-serif;
+     margin: 20px;
+ }
+ 
+ #long-text {
+     height: 150px;
+     overflow: hidden;
+     transition: width 0.1s;
+        width: 110px;
+        margin: 20 auto;
+ }
+ 
+ #long-text:hover{
+     overflow: visible;
+     width: 140px;
+     text-align: center;
+     margin: 20px auto;
+ }   
+ 
+ #card {
+     margin: 80px auto;
+     width: 400px;
+     background-color:  #E7DCC6;
+     padding: 40px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.35);
+      border-radius: 10px;
+     
+     
+ }
+ 
+ #card-con {
+     display: flex;
+     align-items: center;
+ }
+ 
+ #me {
+     width: 150px;
+     border-radius: 5px;
+     margin-right: 30px;
+ }
+ 
+ #name {
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 30px;
+ }
+ 
+ #meaning {
+     font-family: 'Work Sans', sans-serif;
+ }
